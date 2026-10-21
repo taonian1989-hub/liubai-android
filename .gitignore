@@ -1,0 +1,16 @@
+work/
+outputs/
+.gradle/
+local.properties
+app/build/
+*.keystore
+*.jks
+README.local.md
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+.idea/
+*.iml
+.playwright-cli/
