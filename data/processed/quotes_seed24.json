@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sushi-rain",
+    "text": "回首向来萧瑟处，归去，也无风雨也无晴。",
+    "author": "苏轼",
+    "work": "定风波·莫听穿林打叶声",
+    "source": "https://zh.wikisource.org/wiki/%E5%AE%9A%E9%A2%A8%E6%B3%A2_(%E8%8E%AB%E8%81%BD%E7%A9%BF%E6%9E%97%E6%89%93%E8%91%89%E8%81%B2)",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "tagore-self",
+    "text": "你看不见你自己，你所看见的只是你的影子。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第18则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#18",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "laozi-self",
+    "text": "知人者智，自知者明。",
+    "author": "老子",
+    "work": "道德经·第三十三章",
+    "source": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tao-meaning",
+    "text": "此中有真意，欲辩已忘言。",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%B2%E9%85%92%E4%BA%8C%E5%8D%81%E9%A6%96",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "luxun-empathy",
+    "text": "人类的悲欢并不相通，我只觉得他们吵闹。",
+    "author": "鲁迅",
+    "work": "而已集·小杂感",
+    "source": "https://zh.wikisource.org/wiki/%E5%B0%8F%E9%9B%9C%E6%84%9F",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-rest",
+    "text": "休息与工作的关系，正如眼睑与眼睛的关系。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第24则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#24",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "wangwei-clouds",
+    "text": "行到水穷处，坐看云起时。",
+    "author": "王维",
+    "work": "终南别业",
+    "source": "https://zh.wikisource.org/wiki/%E7%B5%82%E5%8D%97%E5%88%A5%E6%A5%AD",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "laozi-enough",
+    "text": "知足不辱，知止不殆，可以长久。",
+    "author": "老子",
+    "work": "道德经·第四十四章",
+    "source": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-meeting",
+    "text": "有一次，我们梦见大家都是不相识的。我们醒了，却知道我们原是相亲相爱的。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第9则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#9",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tao-quiet",
+    "text": "问君何能尔？心远地自偏。",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%B2%E9%85%92%E4%BA%8C%E5%8D%81%E9%A6%96",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "sushi-possession",
+    "text": "苟非吾之所有，虽一毫而莫取。",
+    "author": "苏轼",
+    "work": "前赤壁赋",
+    "source": "https://zh.wikisource.org/wiki/%E5%89%8D%E8%B5%A4%E5%A3%81%E8%B3%A6",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "tagore-evening",
+    "text": "忧思在我的心里平静下去，正如暮色降临在寂静的山林中。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第10则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#10",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "zhuangzi-open",
+    "text": "人能虚己以游世，其孰能害之？",
+    "author": "庄子",
+    "work": "庄子·山木",
+    "source": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90%2F%E5%B1%B1%E6%9C%A8",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-value",
+    "text": "生命从世界得到资产，爱情使它得到价值。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第33则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#33",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "laozi-storm",
+    "text": "飘风不终朝，骤雨不终日。",
+    "author": "老子",
+    "work": "道德经·第二十三章",
+    "source": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "luxun-road",
+    "text": "希望是本无所谓有，无所谓无的。这正如地上的路，其实地上本没有路；走的人多了，也便成了路。",
+    "author": "鲁迅",
+    "work": "呐喊·故乡",
+    "source": "https://zh.wikisource.org/wiki/%E6%95%85%E9%84%89",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-smile",
+    "text": "你微微地笑着，不同我说什么话。而我觉得，为了这个，我已等待得久了。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第42则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#42",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tao-world",
+    "text": "吾生梦幻间，何事绁尘羁？",
+    "author": "陶渊明",
+    "work": "饮酒·其八",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%B2%E9%85%92%E4%BA%8C%E5%8D%81%E9%A6%96",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "清欢与生活"
+  },
+  {
+    "id": "tagore-listen",
+    "text": "静静地听，我的心呀，听那世界的低语，这是它对你求爱的表示呀。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第13则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#13",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "laozi-soft",
+    "text": "天下之至柔，驰骋天下之至坚。",
+    "author": "老子",
+    "work": "道德经·第四十三章",
+    "source": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-life",
+    "text": "我的存在，对我是一个永久的神奇，这就是生活。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第22则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#22",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "zhuangzi-self",
+    "text": "古之至人，先存诸己，而后存诸人。",
+    "author": "庄子",
+    "work": "庄子·人间世",
+    "source": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90%2F%E4%BA%BA%E9%96%93%E4%B8%96",
+    "verifiedAt": "2026-10-23",
+    "kind": "经典摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-freedom",
+    "text": "瀑布歌唱道：“我得到自由时便有了歌声了。”",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第36则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#36",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  },
+  {
+    "id": "tagore-farewell",
+    "text": "我们如海鸥之与波涛相遇似的，遇见了，走近了。海鸥飞去，波涛滚滚地流开，我们也分别了。",
+    "author": "泰戈尔",
+    "work": "飞鸟集·第54则",
+    "translator": "郑振铎",
+    "source": "https://zh.wikisource.org/wiki/%E9%A3%9B%E9%B3%A5%E9%9B%86#54",
+    "verifiedAt": "2026-10-23",
+    "kind": "名著摘句",
+    "topic": "自我与内心"
+  }
+]

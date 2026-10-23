@@ -2,17 +2,17 @@
 
 面向个人的免登录安卓生活助手，以情绪陪伴与自我整理为重心。暖白墨绿、安静克制；日常从一句话开始。
 
-**[下载安卓 APK](https://github.com/taonian1989-hub/liubai-android/releases/tag/v0.1.0-preview.1)** · **[使用说明](docs/使用说明_v1.md)** · **[验收记录](docs/验收记录_v1.md)**
+**[下载安卓 APK](https://github.com/taonian1989-hub/liubai-android/releases/tag/v0.1.1-preview.1)** · **[使用说明](docs/使用说明_v2.md)** · **[验收记录](docs/验收记录_v2.md)**
 
-当前版本 **0.1.0 个人预览版**。支持 **Android 8.0 / API 26 及以上**，建议使用近期 Android System WebView。
+当前版本 **0.1.1 金句库预览版**。支持 **Android 8.0 / API 26 及以上**，建议使用近期 Android System WebView。
 
-<img src="docs/assets/Liubai_home.png" alt="留白首页，浏览器移动预览" width="260"> <img src="docs/assets/Liubai_chat.png" alt="留白聊天入口，浏览器移动预览" width="260"> <img src="docs/assets/Liubai_dark.png" alt="留白夜间界面，浏览器移动预览" width="260">
+<img src="docs/assets/Liubai_0.1.1_home.png" alt="留白首页，浏览器移动预览" width="260"> <img src="docs/assets/Liubai_0.1.1_catalog.png" alt="1024条金句库，浏览器移动预览" width="260"> <img src="docs/assets/Liubai_0.1.1_dark.png" alt="留白夜间界面，浏览器移动预览" width="260">
 
 截图为 APK 同一套界面资源的浏览器移动预览，不是真机截图。
 
 ## 使用
 
-1. 从 [Releases](https://github.com/taonian1989-hub/liubai-android/releases/tag/v0.1.0-preview.1) 下载 `Liubai_0.1.0_preview.apk`，传到安卓手机安装。按系统提示允许所选文件来源安装应用。
+1. 从 [Releases](https://github.com/taonian1989-hub/liubai-android/releases/tag/v0.1.1-preview.1) 下载 `Liubai_0.1.1_preview.apk`，传到安卓手机安装。按系统提示允许所选文件来源安装应用。
 2. 打开即用。每日选句、记录心情、随手记和小行动无需密钥、无需网络。
 3. 在“我的 → 模型连接”配置 DeepSeek、Kimi 或 GLM 的开放平台 API Key。保存后不会回显，保存状态不代表已验证线上连接。
 4. 回到“聊聊”，自然描述感受或困扰。可以选择“听你说”“一起梳理”“晚间复盘”；随时停止生成，失败后手动重试。
@@ -22,7 +22,7 @@
 
 ## 已实现
 
-- **每日一句**：31段原创选句，按手机本地日期每日轮换，同一天稳定。可复制、收藏；可手动要求 AI 写一句。启用“每天打开时，AI 写一句给我”后，每日本机首次可用时自动请求一次；失败不会自动重试，仍保留离线句子。AI 生成明确标记。
+- **每日金句**：新增1000条经典摘句，连同首批24条共1024条；分六个生活主题，按本地日期轮换，一个周期1024天不重复。保留作者、作品、原文链接；可离线浏览、按句子/作者/书名搜索、筛选主题和收藏。复制与导出保留署名。开启自动AI原创后，每天最多自动请求一次，不合格输出保留精选原句。
 - **心情足迹**：五种状态，首页一键记录、同日可修改、七天回看、删除和补写感受。
 - **对话陪伴**：流式回应、连续追问、独立会话与历史、停止、重试、截断与错误状态、可选展示思考过程。
 - **AI建议卡片**：模型可建议随手记或小行动，点击“确认收下”才会保存在本机。也可把整段回应收为可编辑笔记。
@@ -30,6 +30,8 @@
 - **三家模型**：DeepSeek、Kimi、GLM 的接口地址、模型ID、密钥、输出上限均可配置。切换模型会开启独立上下文，避免混用推理过程。
 - **独立联网**：搜索与生成解耦，可组合 GLM 搜索和 Kimi 对话等。失败、零结果不会悄悄变成“已联网”回应。结果使用摘要，不自动读取全文。
 - **个人偏好**：可编辑相处语气；暖白墨绿、夜间暖灰和跟随系统；Markdown 导出。
+
+**[金句内容与来源说明](docs/金句内容与来源_v1.md)** · [完整1024条语料](data/processed/quotes_1024.json)
 
 用户自述的 INFJ、处女座、B型血仅作为自我认同与文案偏好的线索，不用于推断性格、命运或心理诊断。
 
@@ -66,7 +68,9 @@ pwsh -File scripts/test_protocol.ps1 -ToolRoot work/toolchain -JsonJar work/test
 
 本机网页预览：`node scripts/serve_preview.cjs`。浏览器预览不接收密钥，AI功能需安卓安装版。
 
-界面测试以 Playwright CLI `run-code --filename tests/ui_smoke.js` 和 `tests/daily_edges.js` 运行，预览服务需在127.0.0.1:8798提供app/src/main/assets。界面模拟桥仅存在于tests，不打入APK。
+界面测试以 Playwright CLI `run-code --filename` 加 tests/ui_smoke.js、tests/daily_edges.js、tests/quotes_ui.js、tests/catalog_ui.js 运行，预览服务需在127.0.0.1:8798提供app/src/main/assets。界面模拟桥仅存在于tests，不打入APK。
+
+金句逻辑检查：`node tests/quotes_test.cjs`。语料可使用Python标准库重建：先运行 `python scripts/fetch_quote_sources.py`，然后 `python scripts/extract_quote_candidates.py`、`python scripts/select_quote_catalog.py`。原文快照仅保留本机data/raw；来源清单、生成语料及脚本公开。用 `python scripts/verify_quote_catalog.py` 逐条核对新增摘句与快照。网站修订后需重新核验来源清单及语料差异，不能把自动重建等同于人工选句。
 
 ## 目录与交付
 
@@ -81,7 +85,7 @@ outputs/            APK、源码压缩包、说明与校验文件
 work/               本机签名、工具链及构建中间文件，不交付
 ```
 
-验收标准为可编译签名APK、无登录门槛的完整本地记录流程、三家模型与搜索协议检查、移动界面流程及异常反馈。详见 `docs/验收记录_v1.md`。截图是相同资源的浏览器移动预览，不是真机截图；聊天测试截图会明确标记模拟内容。
+验收标准为可编译签名APK、无登录门槛的完整本地记录流程、三家模型与搜索协议检查、移动界面流程及异常反馈。详见 `docs/验收记录_v2.md`。截图是相同资源的浏览器移动预览，不是真机截图；聊天测试截图会明确标记模拟内容。
 
 本机项目位置及聊天展示副本的目录例外记录在本地 `README.local.md`，该文件不随公开源码发布。
 

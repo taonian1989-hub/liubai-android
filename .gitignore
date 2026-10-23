@@ -14,3 +14,6 @@ README.local.md
 .idea/
 *.iml
 .playwright-cli/
+/data/raw/quotes_20261023/*.html
+__pycache__/
+*.pyc

@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
     private ModelBridge bridge;
     private String pendingExport;
     private static final String HOST="app.liubai.local";
-    private static final Set<String> ASSETS=new HashSet<>(Arrays.asList("index.html","app.css","app.js"));
+    private static final Set<String> ASSETS=new HashSet<>(Arrays.asList("index.html","app.css","app.js","quotes.js"));
     @Override public void onCreate(Bundle state){
         super.onCreate(state);
         getWindow().setStatusBarColor(Color.TRANSPARENT);getWindow().setNavigationBarColor(Color.TRANSPARENT);

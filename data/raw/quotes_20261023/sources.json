@@ -1,0 +1,82 @@
+[
+  {
+    "key": "caigentan",
+    "title": "菜根譚",
+    "author": "洪应明",
+    "book": "菜根谭",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%8F%9C%E6%A0%B9%E8%AD%9A",
+    "file": "caigentan.html",
+    "sha256": "87d88f4e8abc129b71bb6ff9de3230df4c071c14d0c4c44b026a085e01c9dd32",
+    "bytes": 183455
+  },
+  {
+    "key": "weiluyahua",
+    "title": "圍爐夜話",
+    "author": "王永彬",
+    "book": "围炉夜话",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%9C%8D%E7%88%90%E5%A4%9C%E8%A9%B1",
+    "file": "weiluyahua.html",
+    "sha256": "454b9f5506cc2bc69c1965dc9966a22efce0f9cb1e7ae1032528c0c1cdaf5d06",
+    "bytes": 83258
+  },
+  {
+    "key": "youmengying",
+    "title": "幽夢影",
+    "author": "张潮",
+    "book": "幽梦影",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%B9%BD%E5%A4%A2%E5%BD%B1",
+    "file": "youmengying.html",
+    "sha256": "313b6ab709dd8af2b58ed59e1cb3c130621b47a18177069c1c0ec22b57ac0306",
+    "bytes": 579331
+  },
+  {
+    "key": "geyanlianbi",
+    "title": "格言聯璧",
+    "author": "金缨（辑）",
+    "book": "格言联璧",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%A0%BC%E8%A8%80%E8%81%AF%E7%92%A7",
+    "file": "geyanlianbi.html",
+    "sha256": "599b747964cfe90b11e682af61c4ec65f6c038e4abb663679bb5b67341a201a4",
+    "bytes": 142746
+  },
+  {
+    "key": "lunyu",
+    "title": "論語/全覽",
+    "author": "孔子及门人",
+    "book": "论语",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E%2F%E5%85%A8%E8%A6%BD",
+    "file": "lunyu.html",
+    "sha256": "7a55d86c4bb6100152e8779abf48d586d75b841de74f7a0eb32f05e8f81e44c9",
+    "bytes": 198090
+  },
+  {
+    "key": "laozi",
+    "title": "道德經_(王弼本)",
+    "author": "老子",
+    "book": "道德经",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+    "file": "laozi.html",
+    "sha256": "d747fcb1bc040e6ece4aab96cc11294ed2cd27db64128e918903e3ce457ae4a8",
+    "bytes": 424153
+  },
+  {
+    "key": "renjiancihua",
+    "title": "人間詞話",
+    "author": "王国维",
+    "book": "人间词话",
+    "url": "https://zh.wikisource.org/zh-hans/%E4%BA%BA%E9%96%93%E8%A9%9E%E8%A9%B1",
+    "file": "renjiancihua.html",
+    "sha256": "48a9d481915355fd73f8c200e274d0da05380a3af193eb0edc3f6897fad146e2",
+    "bytes": 350077
+  },
+  {
+    "key": "zhuangzi",
+    "title": "莊子",
+    "author": "庄子及后学",
+    "book": "庄子",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90",
+    "file": "zhuangzi.html",
+    "sha256": "04c64ba7ac2e3f87ef5b6ac79f526f7f3fbae32891d300a76595ff8e85e45da6",
+    "bytes": 78763
+  }
+]

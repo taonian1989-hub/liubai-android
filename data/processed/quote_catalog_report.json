@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-23",
+  "retained": 24,
+  "added": 1000,
+  "total": 1024,
+  "bySource": {
+    "weiluyahua": 180,
+    "caigentan": 280,
+    "geyanlianbi": 320,
+    "youmengying": 104,
+    "laozi": 46,
+    "lunyu": 70
+  },
+  "byTopic": {
+    "清欢与生活": 167,
+    "自我与内心": 412,
+    "时间与成长": 120,
+    "得失与选择": 184,
+    "关系与知己": 47,
+    "处世与分寸": 94
+  },
+  "rejected": {
+    "duplicate_or_variant": 59,
+    "off_tone": 95,
+    "context_dependent": 10
+  },
+  "nearDuplicateThreshold": 0.8,
+  "sourceVerification": "All 1000 additions are contiguous source paragraph excerpts after removing editorial brackets/whitespace; no generated or recombined aphorisms."
+}
